@@ -1,4 +1,4 @@
-IRC USERNAME : StuntStorm
+IRC Username : StuntStorm
 
 How to Connect to amFOSS IRC!
 
@@ -19,3 +19,9 @@ And then Join the amFOSS server using
 Voila You are successfully in amFOSS IRC!
 
 Screenshot : 
+<img src="https://i.imgur.com/Sn5qIfO.png"> 
+  
+  
+  
+  
+  Special Thanks to TheFatherMind & #DesktopMasters for noting that Freenode is not valid anymore
