@@ -30,7 +30,7 @@ And then Join the amFOSS server using
 
   
   
-Voila You are successfully in amFOSS IRC!
+Voila You are successfully joined amFOSS IRC!
 
 ------------------------------------------------- 
   
