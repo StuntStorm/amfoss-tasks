@@ -42,7 +42,7 @@ join #libera-cloak and then type !cloakme
  
   
 Screenshot : 
-<img src="https://i.imgur.com/Sn5qIfO.png"> 
+<img src="https://i.imgur.com/rn0SKBp.png"> 
   
   
   
