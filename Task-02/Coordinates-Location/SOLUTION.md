@@ -2,53 +2,55 @@
 
 1. Creating a Directory as Coordinates-Location
 
-mkdir Coordinates-Location
+- mkdir Coordinates-Location
 
-cd Coordinates-Location
+- cd Coordinates-Location
 
+2. Creating a Directory as North And Adding Files
 
-mkdir NOrth
+- mkdir North
 
-cd North
+- cd North
 
-touch NDegree.txt
+- touch NDegree.txt
 
-cat > NDegree.txt
+- cat > NDegree.txt
 
-2°
+- 2°
 
-CTRL + D
+- CTRL + D
 
-touch NMinutes.txt
+- touch NMinutes.txt
 
-cat > NMinutes.txt
+- cat > NMinutes.txt
 
-5'
+- 5'
 
-CTRL + D
+- CTRL + D
 
-touch NSeconds.txt
+- touch NSeconds.txt
 
-cat > NSeconds.txt  
+- cat > NSeconds.txt  
 
-38.1"
+- 38.1"
 
-CTRL + D
+- CTRL + D
 
-touch NorthCoordinate.txt
+- touch NorthCoordinate.txt
 
-cat > NorthCoordinate.txt
+- cat > NorthCoordinate.txt
 
-2°,5',38.1"
+- 2°,5',38.1"
 
-CTRL + D
+- CTRL + D
 
-cp ~/Desktop/Coordinates-Location/North/NorthCoordinate.txt ~/Desktop/Coordinates-Location/
+- cp ~/Desktop/Coordinates-Location/North/NorthCoordinate.txt ~/Desktop/Coordinates-Location/
 
-cd ..
+- cd ..
 
-mv NorthCoordinate.txt North.txt
+- mv NorthCoordinate.txt North.txt
 
+3. Creating a Directory as East And Adding Files
 
 mkdir East
 
