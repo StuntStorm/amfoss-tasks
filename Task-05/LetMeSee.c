@@ -1,8 +1,8 @@
 //All these header files are needed to support code, or are they all there?
 #include<stdio.h> 
-
 #include<stdlib.h>
 #include <string.h>
+
 void showInput(int);
 
 //Typos are a cause of huge pain for every coder
