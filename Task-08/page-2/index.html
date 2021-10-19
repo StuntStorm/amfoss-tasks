@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>JS</title>
+  </head>
+  <body>
+    <!--On click of Button-1 store something in localStorage-->
+<p>
+<div class="container">
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<style media="screen">
+input {
+padding: 7px;
+height: 40px;
+
+</style>
+
+<fieldset>
+<p align="center">
+<legend>Insert Data</legend>
+<input id="Key" type="text" placeholder="Enter Key..">
+<input id="Value" type="text" placeholder="Enter Value..">
+<button type="button" class="button" id="btnInsert">Button-1</button>
+</p>
+</fieldset>
+<fieldset>
+<p align="center">
+<legend>Local Storage</legend>
+<div id="IsOutput"></div>
+</fieldset>
+</p>
+
+<script type="text/javascript">
+const Key = document.getElementById("Key");
+const invalue = document.getElementById("Value");
+const btnInsert = document.getElementById("btnInsert");
+const IsOutput = document.getElementById("IsOutput");
+
+btnInsert.onclick = function () {
+const key = Key.value;
+const value = invalue.value;
+console.log(key);
+console.log(value);
+
+if(key && value) {
+localStorage.setItem(key, value);
+location.reload();
+}
+};
+
+for (let i = 0; i < localStorage.length; i++) {
+const key = localStorage.key(i);
+const value = localStorage.getItem(key);
+IsOutput.innerHTML += `${key}: ${value}<br />`;
+}
+</script>
+
+</p>
+<br>
+<br>
+
+<!--On click of Button-2 show a popup with current time-->
+<script>
+    var popup = function() {
+        window.open ("https://time.is", "Window","status=1,toolbar=1");
+    }
+</script>
+<br>
+
+<input type="button" class="button" value="Button-2" onclick="popup();">
+
+    
+<!--On click of Button-3 change the background-->
+<button 
+class="button"
+onClick="StuntColor();">
+Button-3
+</button>
+<script src="C:\Users\rizwa\Downloads\tasks-main\task-8\page-2\js\index.js"></script>
+    
+
+
+    
+<!--On click of Button-4 refresh the page-->
+<button 
+class="button"
+onClick="window.location.reload();">
+Button-4
+</button>
+    
+    
+<!--On click of Button-5 open a new window-->
+     <button 
+class="button"
+onclick=" window.open('http://google.com','_blank')">
+ Button-5
+</button>
+    
+<!--On click of Button-6 spam the console with 'I did it'-->
+
+<button class="button" onclick="console.log('I DID IT');"> 
+Button-6 </button>
+
+
+<form>
+<button 
+class="button">
+<a href="file:///C:/Users/rizwa/Downloads/tasks-main/task-8/page-3/chart.html" style="text-decoration: none;"">
+      Next
+</a>
+    </button>
+    </form>
+  </body>
+</html>
