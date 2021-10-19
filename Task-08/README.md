@@ -22,9 +22,9 @@
 
 
 ### PAGE 2 : 
-<img src="https://i.imgur.com/2U71GzE.png"> 
+<img src="https://i.imgur.com/8sHwKl9.png"> 
 
 
 
 ### PAGE 3 : 
-<img src="https://i.imgur.com/8sHwKl9.png"> 
+<img src="https://i.imgur.com/2U71GzE.png"> 
