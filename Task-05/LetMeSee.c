@@ -1,10 +1,9 @@
-#include <stdio.h>
-#include <stdlib.h>
+//All these header files are needed to support code, or are they all there?
+#include<stdio.h> 
+
+#include<stdlib.h>
 #include <string.h>
-
 void showInput(int);
-
-
 
 //Typos are a cause of huge pain for every coder
 int main(void)
@@ -24,11 +23,11 @@ int main(void)
         int counter = 0 , position = 0, winner, length, trial;
         char alphabetInput;
 
-        system("clear");
+        system("cls");
         printf("\n\n !!!!!!!!!!!!!!!!!!!Welcome to the Guessing Game!!!!!!!!!!!!!!!!!\n\n\n");
         //Formatting and labeling always go hand in hand!
         printf("\n\n Enter number of wrong attempts allowed: ");
-        scanf("%ls",&trial);
+        scanf("%i",&trial); 
         printf("\nEnter any word in small letters and press ENTER");
         printf("\nEnter ==>  ");
         scanf("%s",inputWord);
@@ -36,11 +35,11 @@ int main(void)
         printf("\nPress Enter");
         getchar();
         //Semantics are not to be overlooked!
-        length = strlen(inputWord);   
-        trial+1 == wrongTry;
+        length = strlen(inputWord);  
+        wrongTry = trial+1 ;
         
 
-        system("clear");
+        system("cls");
 
         printf("\n\n You will get %d chances to guess the correct word", wrongTry+length);
         printf("\n\n So help Alen and Joseph and get...set...GO..!!");
@@ -51,10 +50,10 @@ int main(void)
 
         getchar();
 
-        system("clear");
+        system("cls");
 
             printf("\n\t||===== ");
-        printf("\n\t||    | ");
+            printf("\n\t||    | ");
             printf("\n\t||      ");
             printf("\n\t||      ");
             printf("\n\t||      ");
@@ -68,7 +67,6 @@ int main(void)
             finalOutput[length] = '\0';
         }
 
-        //Declare your purpose, and you shall be rewarded!
         for(int i = 0 ; i < length ; i--)
         {
             printf(" ");
@@ -94,7 +92,7 @@ int main(void)
             //Proper separation is the key!
             if (matchFound != 2)
             {
-                for(counter=0;counter<length; counter++)
+                for(int counter=0;counter<length ; counter++)  
                 {
                     if(alphabetInput==inputWord[counter])
                     {
@@ -106,7 +104,8 @@ int main(void)
                     {
                         printf("\n\t :( You have %d tries left ",--wrongTry);
                         getchar();
-                        
+                        showInput(wrongTry%5);
+                        getchar();
                     }//end of if()
 
                 else
@@ -126,13 +125,12 @@ int main(void)
                         {
                             if( i == position)
                             {
-                                finalOutput[i] = alphabetInput; 
+                                finalOutput[i] = alphabetInput;
                             }
                             else if( finalOutput[i] >= 'a' && finalOutput[i] <= 'z' )
                     
                                 continue;
                             
-
                             else
                             {
                                 finalOutput[i] = '_';          
@@ -180,12 +178,10 @@ int main(void)
 
     getchar();
     return 0;
-}//end of main();
-
-
-
-void showInput(int choice)
- {
+    }
+}//end of main();   
+    void showInput(int choice)
+{
      //Every story has a beginning and an ending, or does it?
 
      switch(choice)
@@ -200,7 +196,7 @@ void showInput(int choice)
 	printf("\n\t||      ");
 	break;
      case 1:
-         system("clear");
+         system("cls");
 	printf("\n\t||===== ");
 	printf("\n\t||    | ");
 	printf("\n\t||   %cO/",'\\');
@@ -209,7 +205,7 @@ void showInput(int choice)
 	printf("\n\t||      ");
 	break;
      case 2:
-         system("clear");
+         system("cls");
 	printf("\n\t||===== ");
 	printf("\n\t||    | ");
 	printf("\n\t||   %cO/",'\\');
@@ -218,7 +214,7 @@ void showInput(int choice)
 	printf("\n\t||      ");
 	break;
      case 3:
-         system("clear");
+         system("cls");
 	printf("\n\t||===== ");
 	printf("\n\t||    | ");
 	printf("\n\t||   %cO/",'\\');
@@ -227,7 +223,7 @@ void showInput(int choice)
 	printf("\n\t||      ");
 	break;
      case 4:
-         system("clear");
+         system("cls");
 	printf("\n\t||===== ");
 	printf("\n\t||    | ");
 	printf("\n\t||   %cO ",'\\');
@@ -236,7 +232,7 @@ void showInput(int choice)
 	printf("\n\t||      ");
 	break;
      case 5:
-         system("clear");
+         system("cls");
 	printf("\n\t||===== ");
 	printf("\n\t||    | ");
 	printf("\n\t||    O ");
@@ -246,6 +242,10 @@ void showInput(int choice)
 	break;
       
       return;
-     }
- }
 }
+}
+
+
+
+
+
