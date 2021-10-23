@@ -1,6 +1,6 @@
 # Using Python CLI App for the First time
 
-As its my first time to the feature of CLI..I referred this [Youtube videp](https://youtu.be/we3907q1xz4)
+As its my first time to the feature of CLI. I referred this [Youtube video](https://youtu.be/we3907q1xz4)
 
 It was really easy as it seems really basic 👍
 And I used CS50 IDE as I really Love that IDE 🖤
