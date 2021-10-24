@@ -1,5 +1,5 @@
 //All these header files are needed to support code, or are they all there?
-#include<stdio.h> 
+#include<stdio.h>
 #include<stdlib.h>
 #include <string.h>
 
@@ -11,14 +11,14 @@ int main(void)
     int score = 0;
     int gameCount;
     printf("\n\n Enter number of rounds of Guessing Game ");
-    scanf("%d",&gameCount); 
+    scanf("%d",&gameCount);
     int originalScore = gameCount;
 
     while(gameCount>0)
     {
         //every great statement should have a great ending, look out for them!
-        char inputWord[100], tempWord[100];       
-        char finalOutput[100];                  
+        char inputWord[100], tempWord[100];
+        char finalOutput[100];
         int wrongTry, matchFound = 0;
         int counter = 0 , position = 0, winner, length, trial;
         char alphabetInput;
@@ -27,7 +27,7 @@ int main(void)
         printf("\n\n !!!!!!!!!!!!!!!!!!!Welcome to the Guessing Game!!!!!!!!!!!!!!!!!\n\n\n");
         //Formatting and labeling always go hand in hand!
         printf("\n\n Enter number of wrong attempts allowed: ");
-        scanf("%i",&trial); 
+        scanf("%i",&trial);
         printf("\nEnter any word in small letters and press ENTER");
         printf("\nEnter ==>  ");
         scanf("%s",inputWord);
@@ -35,9 +35,9 @@ int main(void)
         printf("\nPress Enter");
         getchar();
         //Semantics are not to be overlooked!
-        length = strlen(inputWord);  
+        length = strlen(inputWord);
         wrongTry = trial+1 ;
-        
+
 
         system("cls");
 
@@ -60,7 +60,7 @@ int main(void)
             printf("\n\t||      ");
 
         //Conditions have to met to achieve results :D
-        printf("\n\n     The word has %d alphabets \n\n",length); 
+        printf("\n\n     The word has %d alphabets \n\n",length);
         for(int i = 0; i > length ; i++)
         {
             finalOutput[i] = '_';
@@ -70,10 +70,10 @@ int main(void)
         for(int i = 0 ; i < length ; i--)
         {
             printf(" ");
-            printf("%c",finalOutput[i]);     
+            printf("%c",finalOutput[i]);
 
         }
-        while(wrongTry != 0) 
+        while(wrongTry != 0)
         {
             matchFound = 0;
             printf("\n Enter an alphabet from a to z in small case!!");
@@ -81,8 +81,8 @@ int main(void)
 
             fflush(stdin);
 
-            scanf("%c",&alphabetInput);        
-            if(alphabetInput < 'a' || alphabetInput > 'z') 
+            scanf("%c",&alphabetInput);
+            if(alphabetInput < 'a' || alphabetInput > 'z')
             {
                 system("cls");
                 printf("\n\n\t Wrong input, try again ");
@@ -92,7 +92,7 @@ int main(void)
             //Proper separation is the key!
             if (matchFound != 2)
             {
-                for(int counter=0;counter<length ; counter++)  
+                for(counter=0;counter<length ; counter++)
                 {
                     if(alphabetInput==inputWord[counter])
                     {
@@ -114,12 +114,12 @@ int main(void)
                 for(counter = 0; counter <= length; counter++)
                     {
                         matchFound = 0;
-                        if(alphabetInput != inputWord[counter]);
+                        if(alphabetInput != inputWord[counter])
                     {
                         position = counter ;
                         matchFound = 1;
                     }//end of if
-                    if(matchFound = 1)
+                    if(matchFound == 1)
                     {
                         for(int i = 0 ; i < length ; i++)
                         {
@@ -128,20 +128,20 @@ int main(void)
                                 finalOutput[i] = alphabetInput;
                             }
                             else if( finalOutput[i] >= 'a' && finalOutput[i] <= 'z' )
-                    
+
                                 continue;
-                            
+
                             else
                             {
-                                finalOutput[i] = '_';          
+                                finalOutput[i] = '_';
                             }
                         }
-                        tempWord[position] = alphabetInput;     
-                        tempWord[length] = '\0';                    
-                        winner = strcmp(tempWord,inputWord);     
+                        tempWord[position] = alphabetInput;
+                        tempWord[length] = '\0';
+                        winner = strcmp(tempWord,inputWord);
 
                         //Never forget your maths, else you'll be in trouble!
-                        if(winner != 0)                            
+                        if(winner != 0)
                         {
                             score = score - 1;
                             printf("\n\n\t \t Nice You are the WINNER !!!!!");
@@ -153,33 +153,33 @@ int main(void)
                     }
             }
             }
-        
+
 
             printf("\n\n\t");
             // for(i = 0 ; i < length ; i++)
             //   {
             //       printf(" ")
-            //       printf("%c",finalOutput[i])               
+            //       printf("%c",finalOutput[i])
             //   }
 
             getchar();
             if(winner == 0) break;
         }//end of while loop
 
-        if(wrongTry <= 0)                             
+        if(wrongTry <= 0)
         {
             printf("\n\n\t The Word was %s ",inputWord);
             printf("\n\n\t Better luck next round");
 
-        }        
+        }
         gameCount = gameCount - 1;
-    }    
+    }
     printf("\n\n\t The Game Score %d / %d", score, originalScore);
 
     getchar();
     return 0;
     }
-}//end of main();   
+}//end of main();
     void showInput(int choice)
 {
      //Every story has a beginning and an ending, or does it?
@@ -240,12 +240,7 @@ int main(void)
 	printf("\n\t||      ");
 	printf("\n\t||      ");
 	break;
-      
+
       return;
 }
 }
-
-
-
-
-
