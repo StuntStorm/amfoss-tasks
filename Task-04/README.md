@@ -30,6 +30,19 @@ full_name = str(name) + ".jpg"
 urllib.request.urlretrieve(image, full_name)
 
 ```
+
+USAGE : `python nasa.py <rover id> <date : YYYY-MM-DD>`
+
+
+--------------------------------
+Rover Ids :
+
+1.curiosity
+
+2.opportunity
+
+3.spirit
+
 --------------------------------
 # GIF
 --------------------------------
@@ -38,8 +51,6 @@ urllib.request.urlretrieve(image, full_name)
 
 --------------------------------
 # ScreenShots
-
-## Usage of the Command
 -----------------------------------
 1. `python nasa.py curiosity 2015-3-6`
 
