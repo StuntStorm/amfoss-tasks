@@ -13,4 +13,6 @@ And I used CS50 IDE as I really Love that IDE 🖤
 ### UPDATE : WHAT I LEARNED ^ IS DECORATIVE AND HAD NO IDEA CLI JUST MEANS NO GUI
 
 As the question never was clear whether the user should input the ID of the image or ID of the rover. Using this to my advantage I made the user input the Rover ID
+
+
 Anyways Had an amazing time building this one..although had a rough start but glad it is finished faster than i anticipated! 
