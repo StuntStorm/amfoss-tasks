@@ -9,7 +9,7 @@ class blockchain:
         self.previous_block_hash = previous_block_hash
         self.transaction_list = transaction_list
 
-        self.block_data = " - ".join(transaction_list) + " -> " + previous_block_hash
+        self.block_data = " -> ".join(transaction_list) + " -> " + previous_block_hash
         self.block_hash = hashlib.sha256(self.block_data.encode()).hexdigest()
 
 a1 = "Jecob sends 2 BC to Taylor"
@@ -23,11 +23,11 @@ first = blockchain("Initial String", [a1,a2])
 print(first.block_data)
 print(first.block_hash)
 
-second = blockchain("Initial String", [a3,a4])
+second = blockchain("Primary String", [a3,a4])
 print(second.block_data)
 print(second.block_hash)
 
-third = blockchain("Initial String", [a5,a6])
+third = blockchain("Secondary String", [a5,a6])
 print(third.block_data)
 print(third.block_hash)
 ``` 
