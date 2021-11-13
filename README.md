@@ -26,7 +26,7 @@ Hey, This is Rizwan and I personally love Voxel Art!
 
 ## About my tasks
 
-##### Initially I thought It was really going to be super hard. but to be honest, Its well documented (infact,mst of the answers are right there in the documents)
+##### Initially I thought It was really going to be super hard. but to be honest, Its well documented (infact,most of the answers are right there in the documents) , and well selected. As in the selection process itself all the important languages are covered which is amazing!. All the tasks I completed was with passion so everytime I get a positive outcome for a problem I have been working for a while. The happiness is remarkable, the relief and satisfaction of it being done is an amazing experience. 70% of the tasks were straight forward and easy to complete but certain task consumed time and info. 
 
 ## Who am I?
 
