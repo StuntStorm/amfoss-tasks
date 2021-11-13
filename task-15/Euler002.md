@@ -10,7 +10,7 @@ def fib(n):
         if s >= n:
             return total
         if s % 2 == 0: 
-            total += s
+            total = total + s
         r1, r2 = r2, s
 
 t = int(input().strip())
