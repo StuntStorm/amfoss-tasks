@@ -37,8 +37,21 @@ func main() {
 	task, error := doc.Find("table.ng-scope ng-table").Html()
 	check(error)
 
-	//fmt.Println(task)
-	writeFile(task, "index.html")
+	file, error := os.Create("Billionare.csv")
+	check(error)
+	
+	writer := csv.NewWriter(file)
+	
+	doc.Find("table.ng-scope ng-table").Each(func(index int, item*goquery.Selection){
+	name := item.Find("tr")
+	country := strings.TrimSpace(country.Text())
+
+	
+	excerpt := strings.TrimSpace(item.Find("div.post-block__content").Text())
+	
+	posts := []strings{name, excerpt}
+	writer.Write(posts)
+
 }
 
 //possible URLs : 
