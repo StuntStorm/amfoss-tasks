@@ -11,7 +11,7 @@ Hey, This is Rizwan and I personally love Voxel Art!
 | <a href="https://github.com/StuntStorm/amfoss-tasks/tree/main/Task-02">Task-02</a> | Begin your journey with Linux and Git  | Completed |
 | <a href="https://github.com/StuntStorm/amfoss-tasks/tree/main/Task-03">Task-03</a> |  Programming |  Havent Started |
 | <a href="https://github.com/StuntStorm/amfoss-tasks/tree/main/Task-04" > Task-04 </a>  | Aerglo Mars | Completed |
-| <a href="https://github.com/StuntStorm/amfoss-tasks/tree/main/Task-05">Task-05</a> | Let me C | Completed |
+| <a href="https://github.com/StuntStorm/amfoss-tasks/tree/main/Task-05">Task-05</a> | Let me C | Attempted |
 | <a href="https://github.com/StuntStorm/amfoss-tasks/tree/main/Task-06">Task-06</a> | Flutter based UI task  | Completed |
 | <a href="https://github.com/StuntStorm/amfoss-tasks/tree/main/Task-07">Task-07</a> | Rich Scraper | Attempted |
 | <a href="https://github.com/StuntStorm/amfoss-tasks/tree/main/Task-08">Task-08</a> | JSExplorer | Completed |
