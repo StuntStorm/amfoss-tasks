@@ -37,3 +37,7 @@ Hey There 👋,
 ##### From all this what I have achieved is that I got to meet lot of talented developers throughout my life especially AAA game devs. And my recent achievement is I was called in for interview Live on Club FM 94.3 because of the games I've developed and I was the first guest after the renovating of club fm.
 
 ##### And finally I am a open person and I dont really mind talking to anyone. So if you are wondering to hit me up feel free to :) ```StuntStorm#7231```
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/56226566/142557909-044bfa43-9bb0-4d9d-b01d-ccc1caaef3c3.png" alt="StuntStorm Discord Profile"/>
+</p>
