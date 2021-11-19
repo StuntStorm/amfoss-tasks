@@ -1,3 +1,6 @@
+![N RIZWAN BCA S1 Neptune](https://user-images.githubusercontent.com/56226566/142630335-64dfd930-7d7d-4254-8099-43fcf399e2ff.png)
+
+
 # amFOSS tasks - N Rizwan
 Hey, This is Rizwan and I personally love Voxel Art! 
 
