@@ -19,7 +19,7 @@ Hey, This is Rizwan and I personally love Voxel Art!
 | <a href="https://github.com/StuntStorm/amfoss-tasks/tree/main/Task-07">Task-07</a> | Rich Scraper | Attempted |
 | <a href="https://github.com/StuntStorm/amfoss-tasks/tree/main/Task-08">Task-08</a> | JSExplorer | Completed |
 | <a href="https://github.com/StuntStorm/amfoss-tasks/tree/main/Task-09">Task-09</a> | Setup a Simple Personal Website | Completed |
-| <a href="https://github.com/StuntStorm/amfoss-tasks/tree/main/Task-10">Task-10 </a>  | CS50 | Working on |
+| <a href="https://github.com/StuntStorm/amfoss-tasks/tree/main/Task-10">Task-10 </a>  | CS50 | Completed |
 | <a href="https://github.com/StuntStorm/amfoss-tasks/tree/main/Task-11">Task-11 </a> | Poster Design | Completed |
 | <a href="https://github.com/StuntStorm/amfoss-tasks/tree/main/Task-12">Task-12 </a>  | Make the Block | Completed |
 | <a href="https://github.com/StuntStorm/amfoss-tasks/tree/main/Task-13">Task-13 </a>| Circuit Design | Completed |
