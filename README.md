@@ -39,5 +39,5 @@ Hey There 👋,
 ##### And finally I am a open person and I dont really mind talking to anyone. So if you are wondering to hit me up feel free to :) ```StuntStorm#7231```
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/56226566/142557909-044bfa43-9bb0-4d9d-b01d-ccc1caaef3c3.png" alt="StuntStorm Discord Profile"/>
+  <img src="https://user-images.githubusercontent.com/56226566/142563874-1bf7e5a0-14fd-4719-a594-a15c79cb8ae3.png" alt="StuntStorm Discord Profile"/>
 </p>
